@@ -1,0 +1,16 @@
+<p>dashboard works!</p>
+
+<table>
+  <tr>
+      <th>Model_id</th>
+      <th>visibility</th>
+      <th>timezone</th>
+      <th>name</th>
+  </tr>
+  <tr *ngFor="let com of data">
+      <td>{{com.model_id}}</td>
+      <td>{{com.visibility}}</td>
+      <td>{{com.timezone}}</td>
+      <td>{{com.name}}</td>
+  </tr>
+</table>
